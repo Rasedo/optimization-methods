@@ -1,0 +1,12 @@
+{
+  "time_units": "дней",
+  "tasks": [
+    {"name": "Анализ", "duration": 5, "predecessors": []},
+    {"name": "Дизайн", "duration": 7, "predecessors": ["Анализ"]},
+    {"name": "Бэкенд", "duration": 10, "predecessors": ["Дизайн"]},
+    {"name": "Фронтенд", "duration": 8, "predecessors": ["Дизайн"]},
+    {"name": "Интеграция", "duration": 4, "predecessors": ["Бэкенд", "Фронтенд"]},
+    {"name": "Тестирование", "duration": 6, "predecessors": ["Интеграция"]},
+    {"name": "Релиз", "duration": 2, "predecessors": ["Тестирование"]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "time_units": "дней",
+  "tasks": [
+    {"name": "A", "duration": 3, "predecessors": []},
+    {"name": "B", "duration": 4, "predecessors": []},
+    {"name": "C", "duration": 5, "predecessors": ["A"]},
+    {"name": "D", "duration": 6, "predecessors": ["A", "B"]},
+    {"name": "E", "duration": 2, "predecessors": ["C"]},
+    {"name": "F", "duration": 4, "predecessors": ["C", "D"]},
+    {"name": "G", "duration": 3, "predecessors": ["E", "F"]}
+  ]
+}

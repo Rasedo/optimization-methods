@@ -1,0 +1,11 @@
+{
+  "row_player": "A",
+  "col_player": "B",
+  "row_strategies": ["А1", "А2", "А3"],
+  "col_strategies": ["Б1", "Б2", "Б3"],
+  "payoff": [
+    [3, -1, 2],
+    [1, 4, -2],
+    [2, 0, 1]
+  ]
+}

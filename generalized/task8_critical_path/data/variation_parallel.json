@@ -1,0 +1,10 @@
+{
+  "time_units": "недель",
+  "tasks": [
+    {"name": "Старт", "duration": 1, "predecessors": []},
+    {"name": "Линия1", "duration": 8, "predecessors": ["Старт"]},
+    {"name": "Линия2", "duration": 3, "predecessors": ["Старт"]},
+    {"name": "Линия3", "duration": 5, "predecessors": ["Старт"]},
+    {"name": "Сборка", "duration": 2, "predecessors": ["Линия1", "Линия2", "Линия3"]}
+  ]
+}

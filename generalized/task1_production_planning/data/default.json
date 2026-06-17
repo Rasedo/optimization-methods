@@ -1,0 +1,13 @@
+{
+  "sense": "max",
+  "currency": "руб.",
+  "products": ["Офисный", "Премиум"],
+  "profit": [2000, 3500],
+  "resources": ["ДСП", "Труд"],
+  "available": [120, 80],
+  "usage": [
+    [2, 3],
+    [1, 2]
+  ],
+  "demand": [null, 25]
+}

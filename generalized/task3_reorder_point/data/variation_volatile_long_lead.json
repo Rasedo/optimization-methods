@@ -1,0 +1,8 @@
+{
+  "units": "л",
+  "time_units": "дн.",
+  "mean_demand": 200,
+  "std_demand": 60,
+  "lead_time": 7,
+  "service_level": 0.90
+}
